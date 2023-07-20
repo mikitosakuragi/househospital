@@ -1,3 +1,61 @@
+# おうちのおくすり
+
+PHP 自作
+
+## 作成背景
+
+例えば…
+風邪をひいたりすると　⇒　市販薬を飲む <br>
+勉強がわからないと　　⇒　分からない箇所を調べる
+
+
+しかし住宅の場合、<br>
+不具合が発生しても、<br>
+自分自身で解決する策はあまり知られておらず、<br>
+結果的に問合せを行うしかないというお客様が多数いる。<br>
+
+⇒不具合に対する解決策を企業側から提示することで、<br>
+　早急な自己解決の手助けに。<br>
+　風邪の時に風邪薬を飲むような感覚で、<br>
+　住宅の不具合に対する特効薬のような存在が作れればいいと考えました。
+
+ ## ユーザ
+ ①管理ユーザ<br>
+ テストアカウント<br>
+ メールアドレス：test.admin@gmail.com<br>
+ パスワード　　：testtest
+ 
+ ②一般ユーザ<br>
+ テストアカウント<br>
+ メールアドレス：test@gmail.com<br>
+ パスワード　　：testtest
+
+ ## できること
+ ①管理ユーザ<br>
+ ・新規投稿<br>
+ ・投稿内容編集(画像は機能として需要が低いため除く)<br>
+ ・お問合せ一覧確認・Excelデータ出力
+
+  ②一般ユーザ<br>
+  ・投稿閲覧<br>
+  ・お問合せ
+
+  ## 環境
+  XAMPP/MySQL/PHP
+
+  ## データベース
+  DB名：househospital<br>
+  こちらを作成し、<br>
+  migrateいただくと使用いただけるかと思われます。
+
+  
+
+ 
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
