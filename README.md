@@ -24,6 +24,8 @@ PHP 自作
  テストアカウント<br>
  メールアドレス：test.admin@gmail.com<br>
  パスワード　　：testtest
+ ※セキュリティ観点上、一般ログインから直接飛べないようにしているので、
+ 　「login/admin」のようにURLの最後に/adminをつけてください。
  
  ②一般ユーザ<br>
  テストアカウント<br>
