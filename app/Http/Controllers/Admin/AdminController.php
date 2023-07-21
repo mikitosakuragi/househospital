@@ -206,26 +206,11 @@ public function adminTopicEditSend(Request $request,Topic $topic) {
     [
       'name'=> 'required', 
       'title'=> 'required',
-      'pic_main'=>'required|image|mimes:jpeg,png,jpg,gif|max:1024',
-      'pic_sub1'=>'required|image|mimes:jpeg,png,jpg,gif|max:1024',
-      'pic_sub2'=>'required|image|mimes:jpeg,png,jpg,gif|max:1024',
       'content'=> 'required',
   ],
   [
       'name.required' => '氏名は必須入力です。10文字以内でご入力ください。',
       'title.required' => 'お問い合わせ内容は必須入力です。20文字以内でご入力ください。',
-      'pic_main.required' =>'画像を選択してください。',
-      'pic_main.image' =>'指定されたファイルが画像ではありません。',
-      'pic_main.mimes' =>'指定された拡張子（PNG/JPG/GIF）ではありません。',
-      'pic_main.max' =>'写真のサイズが１Ｍを超えています。',
-      'pic_sub1.required' =>'画像を選択してください。',
-      'pic_sub1.image' =>'指定されたファイルが画像ではありません。',
-      'pic_sub1.mimes' =>'指定された拡張子（PNG/JPG/GIF）ではありません。',
-      'pic_sub1.max' =>'写真のサイズが１Ｍを超えています。',
-      'pic_sub2.required' =>'画像を選択してください。',
-      'pic_sub2.image' =>'指定されたファイルが画像ではありません。',
-      'pic_sub2.mimes' =>'指定された拡張子（PNG/JPG/GIF）ではありません。',
-      'pic_sub2.max' =>'写真のサイズが１Ｍを超えています。',
       'content.required' => 'お問い合わせ内容は必須入力です。',
   ]
   );
